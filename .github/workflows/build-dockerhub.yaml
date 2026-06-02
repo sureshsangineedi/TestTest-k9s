@@ -8,8 +8,6 @@ branches:
 jobs:
 docker:
 runs-on: ubuntu-latest
-
-```
 steps:
   - name: Checkout Source
     uses: actions/checkout@v4
@@ -30,4 +28,3 @@ steps:
   - name: Push Docker Image
     run: |
       docker push suresh2dev2/my-html-app:latest
-```
