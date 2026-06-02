@@ -20,7 +20,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -f apps/mobiles/Dockerfile -t suresh2dev2/my-html-app:latest apps/mobiles
+          docker build -f apps/mobiles/Dockerfile -t suresh2dev2/mobile-app:latest apps/mobiles
 
       - name: Push Docker Image
         run: |
